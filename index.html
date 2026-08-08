@@ -1,53 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cristiano Ulondu Mendes | Personal Website</title>
-    <meta
-      name="description"
-      content="Personal website for Cristiano Ulondu Mendes."
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main class="page">
-      <section class="hero">
-        <p class="eyebrow">Hello, I’m</p>
-        <h1>Cristiano Ulondu Mendes</h1>
-        <p class="intro">
-          I am building a thoughtful online presence to share my work, interests,
-          and professional journey.
-        </p>
-        <a class="button" href="#about">Learn more</a>
-      </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications – Cristiano Ulondu Mendes</title>
+  <style>
+    /* Modern Academic Minimalist Style */
+    :root {
+      --primary-color: #0f172a; /* Deep slate */
+      --text-muted: #475569;
+      --bg-badge-doi: #e0f2fe;
+      --text-badge-doi: #0369a1;
+      --bg-badge-print: #fef3c7;
+      --text-badge-print: #b45309;
+      --bg-badge-code: #dcfce7;
+      --text-badge-code: #15803d;
+    }
 
-      <section class="card" id="about">
-        <h2>About</h2>
-        <p>
-          Welcome to my personal website. This space is ready to grow with my
-          projects, background, and ways to connect.
-        </p>
-      </section>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--primary-color);
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      background-color: #fafafa;
+    }
 
-      <section class="grid">
-        <article class="card">
-          <h2>What you'll find here</h2>
-          <ul>
-            <li>A short professional introduction</li>
-            <li>Highlights of projects and interests</li>
-            <li>Future contact and social links</li>
-          </ul>
-        </article>
+    header {
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 1.5rem;
+      margin-bottom: 2.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-        <article class="card">
-          <h2>Next steps</h2>
-          <p>
-            Customize this page with your biography, portfolio items, and links
-            to make it uniquely yours.
-          </p>
-        </article>
-      </section>
-    </main>
-  </body>
+    header h1 {
+      font-size: 2rem;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      margin-left: 1rem;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: var(--primary-color);
+      text-decoration: underline;
+    }
+
+    section h2 {
+      font-size: 1.4rem;
+      border-bottom: 2px solid #cbd5e1;
+      padding-bottom: 0.4rem;
+      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+      color: var(--primary-color);
+    }
+
+    .pub-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .pub-item {
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.75rem;
+      border-bottom: 1px dashed #e2e8f0;
+    }
+
+    .pub-item:last-child {
+      border-bottom: none;
+    }
+
+    .pub-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #000;
+      margin-bottom: 0.3rem;
+    }
+
+    .pub-authors {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .pub-authors strong {
+      color: var(--primary-color);
+      text-decoration: underline;
+    }
+
+    .pub-venue {
+      font-style: italic;
+      color: #64748b;
+      font-size: 0.95rem;
+      margin-bottom: 0.6rem;
+    }
+
+    /* Meta Badges Styling */
+    .pub-links {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-top: 0.5rem;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: opacity 0.2s ease;
+    }
+
+    .badge:hover {
+      opacity: 0.8;
+    }
+
+    .badge-doi { background-color: var(--bg-badge-doi); color: var(--text-badge-doi); }
+    .badge-preprint { background-color: var(--bg-badge-print); color: var(--text-badge-print); }
+    .badge-code { background-color: var(--bg-badge-code); color: var(--text-badge-code); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Publications</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cv.pdf">CV</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Journal Articles</h2>
+      <ul class="pub-list">
+
+        <li class="pub-item">
+          <div class="pub-title">Fast tomographic SAR inversion by unrolling a greedy algorithm for sparse reconstruction</div>
+          <div class="pub-authors"><strong>Cristiano Ulondu Mendes</strong>, Loïc Denis, Christophe Kervazo, Florence Tupin</div>
+          <div class="pub-venue">Submitted to IEEE Transactions on Geoscience and Remote Sensing (June 2026)</div>
+          <div class="pub-links">
+            <a href="https://hal.science/hal-05609504" class="badge badge-preprint">Preprint</a>
+            <a href="https://gitlab.telecom-paris.fr/ring/off-grid-tomosar.git" class="badge badge-code">Code</a>
+          </div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-title">POLSAR2POLSAR: A semi-supervised despeckling algorithm for polarimetric SAR images</div>
+          <div class="pub-authors"><strong>Cristiano Ulondu Mendes</strong>, Emanuele Dalsasso, Loïc Denis, Florence Tupin</div>
+          <div class="pub-venue">ISPRS Journal of Photogrammetry and Remote Sensing, 2025</div>
+          <div class="pub-links">
+            <a href="https://doi.org/10.1016/j.isprsjprs.2025.01.008" class="badge badge-doi">DOI</a>
+            <a href="https://hal.science/hal-04683566" class="badge badge-preprint">Preprint</a>
+            <a href="https://gitlab.telecom-paris.fr/ring/polsar2polsar" class="badge badge-code">Code</a>
+          </div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-title">Robustness to spatially-correlated speckle in Plug-and-Play PolSAR despeckling</div>
+          <div class="pub-authors"><strong>Cristiano Ulondu Mendes</strong>, Loïc Denis, Charles Deledalle, Florence Tupin</div>
+          <div class="pub-venue">IEEE Transactions on Geoscience and Remote Sensing, 2024</div>
+          <div class="pub-links">
+            <a href="https://doi.org/10.1109/TGRS.2024.3432180" class="badge badge-doi">DOI</a>
+            <a href="https://telecom-paris.hal.science/hal-04159195v2" class="badge badge-preprint">Preprint</a>
+            <a href="https://gitlab.telecom-paris.fr/ring/mulog-drunet" class="badge badge-code">Code</a>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+    <section>
+      <h2>Conferences</h2>
+      <ul class="pub-list">
+
+        <li class="pub-item">
+          <div class="pub-title">Reconstruction 3D en tomographie radar : apprentissage profond basé sur un Matching Pursuit déroulé</div>
+          <div class="pub-authors"><strong>Cristiano Ulondu Mendes</strong>, Loïc Denis, Christophe Kervazo, Florence Tupin</div>
+          <div class="pub-venue">GRETSI 2025 : XXXe Colloque Francophone de Traitement du Signal et des Images, Aug 2025, Strasbourg, France</div>
+          <div class="pub-links">
+            <a href="https://telecom-paris.hal.science/hal-05248424" class="badge badge-preprint">Preprint</a>
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">Schéma Plug-and-Play robuste à la corrélation spatiale du speckle pour le filtrage des données SAR polarimétriques</div>
+          <div class="pub-authors"><strong>Cristiano Ulondu Mendes</strong>, Loïc Denis, Florence Tupin</div>
+          <div class="pub-venue">GRETSI 2023 : XXIXe Colloque Francophone de Traitement du Signal et des Images, Aug 2023, Grenoble, France</div>
+          <div class="pub-links">
+            <a href="https://telecom-paris.hal.science/hal-04152898v1" class="badge badge-preprint">Preprint</a>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+  <section>
+    <h2>Workshops</h2>
+    <ul class="pub-list">
+
+        <li class="pub-item">
+          <div class="pub-title">Leveraging LiDAR datasets to improve SAR tomography: a diffusion model approach</div>
+          <div class="pub-authors"><strong>Cristiano Ulondu Mendes</strong>, Loïc Denis, Christophe Kervazo, Florence Tupin</div>
+          <div class="pub-venue">14th IAPR Workshop on Pattern Recognition in Remote Sensing, Aug 2026, Lyon, France</div>
+          <div class="pub-links">
+            <a href="https://telecom-paris.hal.science/view/index/docid/5689348" class="badge badge-preprint">Preprint</a>
+          </div>
+        </li>
+    </ul>
+  <section>
+  </main>
+
+</body>
 </html>
