@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cristiano Ulondu Mendes – PhD Candidate</title>
+  <style>
+    /* Modern Academic Minimalist Style */
+    :root {
+      --primary-color: #0f172a; /* Deep slate */
+      --text-muted: #475569;
+      --border-color: #e2e8f0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--primary-color);
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      background-color: #fafafa;
+    }
+
+    /* Professional Grid Header */
+    .profile-header {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 2rem;
+      align-items: start;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .profile-photo {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .profile-info h1 {
+      font-size: 2.2rem;
+      margin: 0 0 0.5rem 0;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .profile-info .title {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--primary-color);
+      margin: 0 0 0.75rem 0;
+    }
+
+    .profile-info .affiliation {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin: 0 0 1rem 0;
+    }
+
+    .profile-info .contact {
+      font-size: 0.95rem;
+      margin: 0;
+    }
+
+    .profile-info .contact a {
+      color: #0284c7;
+      text-decoration: none;
+    }
+
+    .profile-info .contact a:hover {
+      text-decoration: underline;
+    }
+
+    /* Shared Navigation Structure */
+    nav {
+      display: flex;
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1.05rem;
+    }
+
+    nav a:hover {
+      color: var(--primary-color);
+      text-decoration: underline;
+    }
+
+    /* Content Sections */
+    section h2 {
+      font-size: 1.4rem;
+      border-bottom: 2px solid #cbd5e1;
+      padding-bottom: 0.4rem;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      color: var(--primary-color);
+    }
+
+    section p {
+      color: #334155;
+      font-size: 1.05rem;
+      text-align: justify;
+    }
+
+    /* Responsive adjustments for smaller screens */
+    @media (max-width: 600px) {
+      .profile-header {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+        gap: 1.5rem;
+      }
+      
+      nav {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="profile-header">
+    <img src="images/photo_Cristiano.jpg" alt="Cristiano Ulondu Mendes" class="profile-photo">
+    
+    <div class="profile-info">
+      <h1>Cristiano Ulondu Mendes</h1>
+      <p class="title">PhD Candidate</p>
+      <p class="affiliation">
+        LTCI, Télécom Paris, Institut Polytechnique de Paris<br>
+        19 place Marguerite Perey, CS 20031, 91120 Palaiseau, France
+      </p>
+      <p class="contact">
+        <strong>Email:</strong> <a href="mailto:cristiano.ulondumendes@telecom-paris.fr">cristiano.ulondumendes@telecom-paris.fr</a><br>
+        <strong>LinkedIn:</strong> <a href="www.linkedin.com/in/cristiano-ulondu-mendes-789531227" target="blank" rel="noopener noreferrer">linkedin.com/in/cristiano-ulondu-mendes-789531227 ↗</a>
+      </p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="publications.html">Publications</a>
+    <a href="cv.pdf" target="_blank">CV (PDF)</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I received my Master's degree in Applied Mathematics from Université Paris Cité, Paris, France, in 2022. 
+        I am currently pursuing a Ph.D. at the LTCI laboratory of Télécom Paris, Palaiseau, France, under the joint supervision of Florence Tupin, Christophe Kervazo, and Loïc Denis.
+      </p>
+      <p>
+        My research focuses on developing deep learning techniques for processing and analyzing Synthetic Aperture Radar (SAR) data, specifically addressing spatial speckle correlation and tomographic reconstruction.
+      </p>
+    </section>
+  </main>
+
+</body>
+</html>%                                                                                                                                                                               
+perso-culondu% cat publications.html                                                                                                                                             ~/www
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications – Cristiano Ulondu Mendes</title>
+  <style>
+    /* Modern Academic Minimalist Style */
+    :root {
+      --primary-color: #0f172a; /* Deep slate */
+      --text-muted: #475569;
+      --bg-badge-doi: #e0f2fe;
+      --text-badge-doi: #0369a1;
+      --bg-badge-print: #fef3c7;
+      --text-badge-print: #b45309;
+      --bg-badge-code: #dcfce7;
+      --text-badge-code: #15803d;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--primary-color);
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      background-color: #fafafa;
+    }
+
+    header {
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 1.5rem;
+      margin-bottom: 2.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      margin-left: 1rem;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: var(--primary-color);
+      text-decoration: underline;
+    }
+
+    section h2 {
+      font-size: 1.4rem;
+      border-bottom: 2px solid #cbd5e1;
+      padding-bottom: 0.4rem;
+      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+      color: var(--primary-color);
+    }
+
+    .pub-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .pub-item {
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.75rem;
+      border-bottom: 1px dashed #e2e8f0;
+    }
+
+    .pub-item:last-child {
+      border-bottom: none;
+    }
+
+    .pub-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #000;
+      margin-bottom: 0.3rem;
+    }
+
+    .pub-authors {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .pub-authors strong {
+      color: var(--primary-color);
+      text-decoration: underline;
+    }
+
+    .pub-venue {
+      font-style: italic;
+      color: #64748b;
+      font-size: 0.95rem;
+      margin-bottom: 0.6rem;
+    }
+
+    /* Meta Badges Styling */
+    .pub-links {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-top: 0.5rem;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: opacity 0.2s ease;
+    }
+
+    .badge:hover {
+      opacity: 0.8;
+    }
+
+    .badge-doi { background-color: var(--bg-badge-doi); color: var(--text-badge-doi); }
+    .badge-preprint { background-color: var(--bg-badge-print); color: var(--text-badge-print); }
+    .badge-code { background-color: var(--bg-badge-code); color: var(--text-badge-code); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Publications</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cv.pdf">CV</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Journal Articles</h2>
+      <ul class="pub-list">
+
+        <li class="pub-item">
+          <div class="pub-title">Fast tomographic SAR inversion by unrolling a greedy algorithm for sparse reconstruction</div>
+          <div class="pub-authors"><strong>Cristiano Ulondu Mendes</strong>, Loïc Denis, Christophe Kervazo, Florence Tupin</div>
+          <div class="pub-venue">Submitted to IEEE Transactions on Geoscience and Remote Sensing (June 2026)</div>
+          <div class="pub-links">
+            <a href="https://hal.science/hal-05609504" class="badge badge-preprint">Preprint</a>
+            <a href="https://gitlab.telecom-paris.fr/ring/off-grid-tomosar.git" class="badge badge-code">Code</a>
+          </div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-title">POLSAR2POLSAR: A semi-supervised despeckling algorithm for polarimetric SAR images</div>
+          <div class="pub-authors"><strong>Cristiano Ulondu Mendes</strong>, Emanuele Dalsasso, Loïc Denis, Florence Tupin</div>
+          <div class="pub-venue">ISPRS Journal of Photogrammetry and Remote Sensing, 2025</div>
+          <div class="pub-links">
+            <a href="https://doi.org/10.1016/j.isprsjprs.2025.01.008" class="badge badge-doi">DOI</a>
+            <a href="https://hal.science/hal-04683566" class="badge badge-preprint">Preprint</a>
+            <a href="https://gitlab.telecom-paris.fr/ring/polsar2polsar" class="badge badge-code">Code</a>
+          </div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-title">Robustness to spatially-correlated speckle in Plug-and-Play PolSAR despeckling</div>
+          <div class="pub-authors"><strong>Cristiano Ulondu Mendes</strong>, Loïc Denis, Charles Deledalle, Florence Tupin</div>
+          <div class="pub-venue">IEEE Transactions on Geoscience and Remote Sensing, 2024</div>
+          <div class="pub-links">
+            <a href="https://doi.org/10.1109/TGRS.2024.3432180" class="badge badge-doi">DOI</a>
+            <a href="https://telecom-paris.hal.science/hal-04159195v2" class="badge badge-preprint">Preprint</a>
+            <a href="https://gitlab.telecom-paris.fr/ring/mulog-drunet" class="badge badge-code">Code</a>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+    <section>
+      <h2>Conferences</h2>
+      <ul class="pub-list">
+
+        <li class="pub-item">
+          <div class="pub-title">Reconstruction 3D en tomographie radar : apprentissage profond basé sur un Matching Pursuit déroulé</div>
+          <div class="pub-authors"><strong>Cristiano Ulondu Mendes</strong>, Loïc Denis, Christophe Kervazo, Florence Tupin</div>
+          <div class="pub-venue">GRETSI 2025 : XXXe Colloque Francophone de Traitement du Signal et des Images, Aug 2025, Strasbourg, France</div>
+          <div class="pub-links">
+            <a href="https://telecom-paris.hal.science/hal-05248424" class="badge badge-preprint">Preprint</a>
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">Schéma Plug-and-Play robuste à la corrélation spatiale du speckle pour le filtrage des données SAR polarimétriques</div>
+          <div class="pub-authors"><strong>Cristiano Ulondu Mendes</strong>, Loïc Denis, Florence Tupin</div>
+          <div class="pub-venue">GRETSI 2023 : XXIXe Colloque Francophone de Traitement du Signal et des Images, Aug 2023, Grenoble, France</div>
+          <div class="pub-links">
+            <a href="https://telecom-paris.hal.science/hal-04152898v1" class="badge badge-preprint">Preprint</a>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+  <section>
+    <h2>Workshops</h2>
+    <ul class="pub-list">
+
+        <li class="pub-item">
+          <div class="pub-title">Leveraging LiDAR datasets to improve SAR tomography: a diffusion model approach</div>
+          <div class="pub-authors"><strong>Cristiano Ulondu Mendes</strong>, Loïc Denis, Christophe Kervazo, Florence Tupin</div>
+          <div class="pub-venue">14th IAPR Workshop on Pattern Recognition in Remote Sensing, Aug 2026, Lyon, France</div>
+          <div class="pub-links">
+            <a href="https://telecom-paris.hal.science/view/index/docid/5689348" class="badge badge-preprint">Preprint</a>
+          </div>
+        </li>
+    </ul>
+  <section>
+  </main>
+
+</body>
+</html>
