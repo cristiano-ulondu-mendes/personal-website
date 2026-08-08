@@ -25,8 +25,15 @@
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
 \usepackage{ifthen} % Required for ifthenelse statements
+\usepackage[dvipsnames]{xcolor} % Colors
+\usepackage{graphicx} % For photo
 \sloppy
 \pagestyle{empty} % Suppress page numbers
+
+% --- Color palette ---
+\definecolor{accent}{RGB}{0, 102, 179}       % Deep blue for name & section titles
+\definecolor{rulecolor}{RGB}{0, 102, 179}    % Blue horizontal rules
+\definecolor{subtext}{RGB}{80, 80, 80}       % Dark grey for secondary text
 
 %----------------------------------------------------------------------------------------
 %	HEADINGS COMMANDS: Commands for printing name and address
@@ -35,41 +42,71 @@
 \def \name#1{\def\@name{#1}} % Defines the \name command to set name
 \def \@name {} % Sets \@name to empty by default
 
-\def \addressSep {$\diamond$} % Set default address separator to a diamond
+% \photo command to specify a profile picture file
+\def \photo#1{\def\@photo{#1}}
 
-% One, two or three address lines can be specified 
+\def \addressSep {~~\textcolor{subtext}{$|$}~~} % Separator between contact items
+
+% Up to four address lines can be specified
 \let \@addressone \relax
 \let \@addresstwo \relax
 \let \@addressthree \relax
+\let \@addressfour \relax
 
-% \address command can be used to set the first, second, and third address (last 2 optional)
+% \address command fills address slots in order
 \def \address #1{
   \@ifundefined{@addresstwo}{
     \def \@addresstwo {#1}
   }{
   \@ifundefined{@addressthree}{
-  \def \@addressthree {#1}
+    \def \@addressthree {#1}
   }{
-     \def \@addressone {#1}
-  }}
+  \@ifundefined{@addressfour}{
+    \def \@addressfour {#1}
+  }{
+    \def \@addressone {#1}
+  }}}
 }
 
 % \printaddress is used to style an address line (given as input)
 \def \printaddress #1{
   \begingroup
     \def \\ {\addressSep\ }
-    \centerline{#1}
+    \centerline{\textcolor{subtext}{#1}}
   \endgroup
   \par
   \addressskip
 }
 
-% \printname is used to print the name as a page header
-\def \printname {
-  \begingroup
-    \hfil{\MakeUppercase{\namesize\bf \@name}}\hfil
-    \nameskip\break
-  \endgroup
+% \printheader prints name + photo side by side, then contact lines
+\def \printheader {
+  % --- Name + photo row ---
+  \noindent
+  \@ifundefined{@photo}{%
+    % No photo: just center the name
+    \begin{center}
+      {\namesize\bf\textcolor{accent}{\MakeUppercase{\@name}}}
+    \end{center}
+  }{%
+    % Photo on right, name centered in the remaining space
+    \begin{minipage}[c]{0.78\textwidth}
+      \begin{center}
+        {\namesize\bf\textcolor{accent}{\MakeUppercase{\@name}}}
+      \end{center}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[c]{0.18\textwidth}
+      \raggedleft
+      \includegraphics[width=\textwidth,height=0.14\textheight,keepaspectratio,
+        clip,trim=0 0 0 0]{\@photo}%
+    \end{minipage}%
+  }
+  \nameskip\par
+  % --- Contact / address lines ---
+  \@ifundefined{@addressone}{}{\printaddress{\@addressone}}%
+  \@ifundefined{@addresstwo}{}{\printaddress{\@addresstwo}}%
+  \@ifundefined{@addressthree}{}{\printaddress{\@addressthree}}%
+  \@ifundefined{@addressfour}{}{\printaddress{\@addressfour}}%
 }
 
 %----------------------------------------------------------------------------------------
@@ -79,13 +116,7 @@
 \let\ori@document=\document
 \renewcommand{\document}{
   \ori@document  % Begin document
-  \printname % Print the name specified with \name
-  \@ifundefined{@addressone}{}{ % Print the first address if specified
-    \printaddress{\@addressone}}
-  \@ifundefined{@addresstwo}{}{ % Print the second address if specified
-    \printaddress{\@addresstwo}}
-     \@ifundefined{@addressthree}{}{ % Print the third address if specified
-    \printaddress{\@addressthree}}
+  \printheader
 }
 
 %----------------------------------------------------------------------------------------
@@ -95,9 +126,9 @@
 % Defines the rSection environment for the large sections within the CV
 \newenvironment{rSection}[1]{ % 1 input argument - section name
   \sectionskip
-  \MakeUppercase{\bf #1} % Section title
+  \textcolor{accent}{\MakeUppercase{\bf #1}} % Section title in accent color
   \sectionlineskip
-  \hrule % Horizontal line
+  {\color{rulecolor}\hrule} % Colored horizontal line
   \begin{list}{}{ % List for each individual item in the section
     \setlength{\leftmargin}{1.5em} % Margin within the section
   }
@@ -123,9 +154,10 @@
   \vspace{0.5em} % Some space after the list of bullet points
 }
 
-% The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
+% The below commands define the whitespace after certain things in the document
 \def\namesize{\huge} % Size of the name at the top of the document
 \def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
 \def\sectionlineskip{\medskip} % The space above the horizontal line for each section 
-\def\nameskip{\bigskip} % The space after your name at the top
+\def\nameskip{\medskip} % The space after your name at the top
 \def\sectionskip{\medskip} % The space after the heading section
+
