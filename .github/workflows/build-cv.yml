@@ -21,6 +21,9 @@ jobs:
         with:
           root_file: resume.tex
 
+      - name: Rename PDF output
+        run: mv resume.pdf cv.pdf
+
       - name: Commit cv.pdf
         run: |
           git config user.name "github-actions[bot]"
