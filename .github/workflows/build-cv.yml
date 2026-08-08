@@ -3,8 +3,7 @@ name: Build CV
 on:
   push:
     paths:
-      - 'cv.tex'
-      - 'cv.css'
+      - 'resume.tex'
   workflow_dispatch:
 
 permissions:
