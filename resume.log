@@ -1,0 +1,462 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.8.8)  8 AUG 2026 11:07
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**resume.tex
+(./resume.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(./resume.cls
+Document Class: resume 2010/07/10 v0.9 Resume class
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count195
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen141
+\ar@mcellbox=\box51
+\extrarowheight=\dimen142
+\NC@list=\toks18
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box52
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count196
+\Gm@cntv=\count197
+\c@Gm@tempcnt=\count198
+\Gm@bindingoffset=\dimen145
+\Gm@wd@mp=\dimen146
+\Gm@odd@mp=\dimen147
+\Gm@even@mp=\dimen148
+\Gm@layoutwidth=\dimen149
+\Gm@layoutheight=\dimen150
+\Gm@layouthoffset=\dimen151
+\Gm@layoutvoffset=\dimen152
+\Gm@dimlist=\toks19
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-generic
+.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pdftex.
+tex)) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
+6.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count199
+\l__pdf_internal_box=\box53
+)
+No file resume.aux.
+\openout1 = `resume.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count266
+\scratchdimen=\dimen153
+\scratchbox=\box54
+\nofMPsegments=\count267
+\nofMParguments=\count268
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count269
+\MPscratchDim=\dimen154
+\MPnumerator=\count270
+\makeMPintoPDFobject=\count271
+\everyMPtoPDFconversion=\toks21
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(28.90755pt, 531.18495pt, 54.2025pt)
+* v-part:(T,H,B)=(21.68121pt, 766.06134pt, 7.22743pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=531.18495pt
+* \textheight=766.06134pt
+* \oddsidemargin=-43.36244pt
+* \evensidemargin=-43.36244pt
+* \topmargin=-87.58878pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
+ut line 46.
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+)
+Overfull \hbox (30.0pt too wide) in paragraph at lines 46--46
+[] 
+ []
+
+<photo_Cristiano.jpg, id=1, 323.2075pt x 414.54875pt>
+File: photo_Cristiano.jpg Graphic file (type jpg)
+<use photo_Cristiano.jpg>
+Package pdftex.def Info: photo_Cristiano.jpg  used on input line 48.
+(pdftex.def)             Requested size: 84.99153pt x 109.00728pt.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 5
+7.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 57.
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--62
+\OT1/pcr/m/n/10.95 Thesis: Deep learning for Synthetic Aperture Radar (SAR) dat
+a processing and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--62
+\OT1/pcr/m/n/10.95 Topics: speckle filtering, polarimetric SAR despeckling, tom
+ographic SAR
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 82.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 82.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 82.
+
+Overfull \hbox (46.87515pt too wide) in paragraph at lines 82--90
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+[]\OT1/pcr/m/n/10.95 Master 1 semester project: exploration of the state of the
+ art in inverse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+09.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
+\OT1/pcr/m/n/10.95 Laboratoire Traitement et Communication de l'Information (LT
+CI), T[]el[]ecom
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
+st/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/f
+ontawesome/fontawesometwo.enc} <./photo_Cristiano.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+[]\OT1/pcr/m/n/10.95 internship subject: Exploration of variational approaches 
+for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+\OT1/pcr/m/n/10.95 multi-temporal despeckling of polarimetric Synthetic Apertur
+e Radar (SAR)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+[]\OT1/pcr/m/n/10.95 porting the Matlab code of a single-date SAR image denoise
+r (MuLoG) to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+[]\OT1/pcr/m/n/10.95 proposal for an extension to polarimetric SAR images of a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+\OT1/pcr/m/n/10.95 multi-temporal denoising scheme initially developed for sing
+le-channel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+[]\OT1/pcr/m/n/10.95 proposal of solutions to account for noise spatial correla
+tion in the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]\OT1/pcr/m/n/10.95 ability to analyze scientific articles, adapt, and impleme
+nt the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
+\OT1/pcr/m/n/10.95 Laboratoire Traitement et Communication de l'Information (LT
+CI), T[]el[]ecom
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+[]\OT1/pcr/m/n/10.95 C. Ulondu Mendes, L. Denis, C. Kervazo, F. Tupin, ``Fast t
+omographic SAR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+\OT1/pcr/m/n/10.95 inversion by unrolling a greedy algorithm for sparse reconst
+ruction,''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+\OT1/pcr/m/sl/10.95 submitted to IEEE Transactions on Geoscience and Remote Sen
+sing\OT1/pcr/m/n/10.95 , June
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+[]\OT1/pcr/m/n/10.95 C. Ulondu Mendes, E. Dalsasso, L. Denis, F. Tupin, ``POLSA
+R2POLSAR: A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+\OT1/pcr/m/n/10.95 semi-supervised despeckling algorithm for polarimetric SAR i
+mages,''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+\OT1/pcr/m/sl/10.95 ISPRS Journal of Photogrammetry and Remote Sensing\OT1/pcr/
+m/n/10.95 , 2025. DOI:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+[]\OT1/pcr/m/n/10.95 C. Ulondu Mendes, L. Denis, C. Deledalle, F. Tupin, ``Robu
+stness to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+\OT1/pcr/m/n/10.95 spatially-correlated speckle in Plug-and-Play PolSAR despeck
+ling,''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+\OT1/pcr/m/sl/10.95 IEEE Transactions on Geoscience and Remote Sensing\OT1/pcr/
+m/n/10.95 , 2024. DOI:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+[]\OT1/pcr/m/n/10.95 C. Ulondu Mendes, L. Denis, C. Kervazo, F. Tupin, ``Levera
+ging LiDAR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+\OT1/pcr/m/n/10.95 datasets to improve SAR tomography: a diffusion model approa
+ch,'' \OT1/pcr/m/sl/10.95 14th
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+\OT1/pcr/m/sl/10.95 IAPR Workshop on Pattern Recognition in Remote Sensing\OT1/
+pcr/m/n/10.95 , Lyon, France, Aug
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+[]\OT1/pcr/m/n/10.95 C. Ulondu Mendes, L. Denis, C. Kervazo, F. Tupin, ``Recons
+truction 3D en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+\OT1/pcr/m/n/10.95 tomographie radar : apprentissage profond bas[]e sur un Matc
+hing Pursuit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+[]\OT1/pcr/m/n/10.95 C. Ulondu Mendes, L. Denis, F. Tupin, ``Sch[]ema Plug-and-
+Play robuste
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+[]\OT1/pcr/m/n/10.95 a la corr[]elation spatiale du speckle pour le filtrage de
+s donn[]ees SAR
+ []
+
+[2] [3] (./resume.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 4985 strings out of 476182
+ 75534 string characters out of 5795596
+ 1931975 words of memory out of 5000000
+ 26934 multiletter control sequences out of 15000+600000
+ 570014 words of font info for 62 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 72i,9n,79p,609b,277s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
+/utmr8a.pfb>
+Output written on resume.pdf (3 pages, 101372 bytes).
+PDF statistics:
+ 47 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
