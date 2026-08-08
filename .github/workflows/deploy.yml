@@ -35,7 +35,8 @@ jobs:
       - name: Prepare site artifact
         run: |
           mkdir public
-          cp index.html style.css public/
+          cp index.html style.css publications.html public/
+          [ -f cv.pdf ] && cp cv.pdf public/ || true
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
