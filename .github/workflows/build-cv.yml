@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'resume.tex'
+      - 'resume.cls'
+      - 'photo_Cristiano.jpg'
   workflow_dispatch:
 
 permissions:
